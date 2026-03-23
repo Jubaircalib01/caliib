@@ -172,7 +172,7 @@ body {
             let username = document.querySelector("input[name='username']").value;
             let password = document.querySelector("input[name='password']").value;
 
-            if (username === "admin" && password === "admin") {
+            if username === "admin" && password === "admin" {
                 localStorage. setItem("isLoggedIn", "true");
         
                 window. location. href = "places.html";
